@@ -1,0 +1,32 @@
+<!doctype html>
+<!--
+	CREDITS:
+	David Fountain
+	Zack Baker
+	Erik Haugrud
+
+	Inspired by: http://www.developphp.com/video/JavaScript/Analyser-Bars-Animation-HTML-Audio-API-Tutorial
+-->
+<html>
+<head>
+
+	<title>Audio Visualizer</title>
+
+	<link rel="stylesheet" type="text/css" href="AudioVis.css"> 
+	<link rel="icon" type="image/png" href="icon.png"> <!--tab image-->
+	<script src = "AudioVis.js"> </script>
+</head>
+
+<body>
+
+	<input id="song" type="file">
+	<!--<button onclick="startPlayback()">START</button>-->
+
+	<div id="mp3_player"> <!--encasing container-->
+		<div id="audio_box"></div> <!--where the music bar is-->
+		<canvas id="analyser_space"></canvas> <!--where the wave visualizer goes-->
+	</div>
+
+</body>
+</html>
+
